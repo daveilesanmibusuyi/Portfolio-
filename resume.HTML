@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Ilesanmi - Data Analyst</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #213140;
+        }
+
+        nav {
+            background: #2c3e50;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+        }
+
+        .social-links-nav {
+            margin-left: auto;
+        }
+        .social-links-nav a {
+            color: white;
+            font-size: 1.2em;
+            margin-left: 20px;
+        }
+        .social-links-nav a:hover {
+            color: #007bff;
+        }
+
+
+        .download-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #454545;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #333;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .download-button i {
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            .download-button {
+                bottom: 10px;
+                right: 10px;
+                padding: 10px 20px;
+            }
+        }
+
+        /* Resume Specific Styles */
+        .resume-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .resume-sidebar {
+            background-color: #454545;
+            color: white;
+            padding: 2rem;
+            width: 300px;
+        }
+
+        .resume-main {
+            flex: 1;
+            padding: 2rem;
+            background-color: white;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: block;
+        }
+
+        .contact-info {
+            margin-bottom: 2rem;
+        }
+
+        .contact-info i {
+            margin-right: 10px;
+            width: 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 1rem;
+            color: #000;
+        }
+
+        .sidebar-section {
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-section h2 {
+            font-size: 20px;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #666;
+            padding-bottom: 0.5rem;
+        }
+
+        .certification-item {
+            margin-bottom: 1rem;
+        }
+
+        .main-name {
+            font-size: 40px;
+            margin-bottom: 1rem;
+            padding: 1rem 0;
+            color: black;
+        }
+
+        .summary-statement,
+        .core-qualifications,
+        .work-experience,
+        .conference-presentations {
+            margin-bottom: 2rem;
+        }
+
+        .work-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .work-item h3 {
+            font-weight: bold;
+        }
+
+        .work-item .date {
+            font-style: italic;
+            color: #666;
+        }
+
+        ul {
+            /* list-style-type: none; */
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Rest of your existing styles */
+
+        @media (max-width: 768px) {
+            .resume-container {
+                flex-direction: column;
+            }
+
+            .resume-sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="back-to-portfolio">← Back to Portfolio</a></li>
+
+            <div class="social-links-nav">
+                <a href="#">Reach out to me here</i></a>
+                <a href="https://github.com/daveilesanmibusuyi"><i class="fab fa-github"></i></a>
+                <a href="mailto:ilesanmidavidbusuyi@gmail.com?Subject=Some%20subject"><i class="fas fa-envelope"></i></a>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- Your existing resume content -->
+    <div class="resume-container">
+        <!-- ... (keeping all existing content) ... -->
+    </div>
+
+    <!-- Add the download button -->
+    <a href="Daveresume.pdf" class="download-button" download="Daveresume.pdf">
+        <i class="fas fa-download"></i>
+        Download My Resume
+    </a>
+    <!-- Your existing hero section and navigation -->
+
+    <div class="resume-container">
+        <div class="resume-sidebar">
+            <img src="profile-pic.png" alt="Profile Picture" class="profile-image">
+            
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> ilesanmidavidbusuyi@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +2348076199570</p>
+                <p><i class="fas fa-map-marker-alt"></i>Ibadan, Nigeria</p>
+            </div>
+
+            <div class="sidebar-section">
+                <h2>EDUCATION</h2>
+                <ul><li>BSc. Health Education</li>
+                <p>Adekunle Ajasin University, Akungba Akoko</p>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h2>CERTIFICATIONS</h2>
+                <div class="certification-item">
+                    <p>Professional Data Analyst - Goggle / Coursera - 2025</p>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h2>Technical Skills</h2>
+                <ul><li>Data Entry</li>
+                    <li>Microsoft Excel & Power BI</li>
+                    <li>Tableau</li>
+                    <li>SQL</li>
+                    <li>Market Research</li>
+                    
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h2>Soft Skills</h2>
+                <ul><li>Good communication</li>
+                    <li>Critical Thinking</li>
+                    <li>Team collaboration</li>
+                    <li>Excellent Written and Oral Communication</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="resume-main">
+            <h1 class="main-name">DAVID ILESANMI </h1>
+
+            <div class="summary-statement">
+                <h2 class="section-title">PROFILE</h2>
+                <p>Results-driven data analyst with years of freelancing experience, using analytical skills to drive insights, with expertise in
+communicating complex information. Combining data expertise with a passion for improving businesses through
+informed decision-making</p>
+            </div>
+
+            <div class="core-qualifications">
+                <h2 class="section-title">CORE QUALIFICATIONS</h2>
+                <ul>
+                    <li>Advanced proficiency in SQL, Spreadsheets, and data visualization tools (Power BI, Tableau)</li>
+                    <li>Expert in data preparation, data manipulation, and data modeling</li>
+                    <li>Strong analytical and problem-solving skills with attention to detail</li>
+                    <li>Excellent communication skills for translating complex data into actionable insights</li>
+                </ul>
+            </div>
+
+            <div class="work-experience">
+                <h2 class="section-title">WORK EXPERIENCE</h2>
+                
+                <div class="work-item">
+                    <h3>Data analyst</h3>
+                    <p class="date">May 2023 - Present</p>
+                    <p>Freelancing - Fiverr, Upwork</p>
+                    <ul>
+                        <li>Analyzed complex data sets to provide actionable insights and recommendations to clients, driving informed business decisions.</li>
+                        <li>Created interactive dashboards, reports, and visualizations to effectively communicate data insights to clients and Stakeholders.</li>
+                        <li>Used data analysis to identify trends, opportunities, and challenges, providing clients with data-driven solutions to improve their business outcomes.</li>
+                        <li>Collaborated with various clients across different industries, adapting to unique project requirements and delivering high-quality data analysis services.</li>
+                    </ul>
+                </div>
+
+                <div class="work-item">
+                    <h3>Health Educator</h3>
+                    <p class="date">Jan 2018 Dec 2019</p>
+                    <p>Government day Secondary School Mafindi, Nigeria</p>
+                    <ul>
+                        <li>Created engaging lesson plans and materials to educate students on various health topics, such as nutrition, mental health, and disease prevention.</li>
+                        <li>Designed and implemented programs to encourage healthy habits, such as exercise, healthy eating, and stress management, among students.</li>
+                    </ul>
+                </div>
+                
+                <div class="work-item">
+                    <h3>Health counselor</h3>
+                    <p class="date">Jan 2016 Dec 2017</p>
+                    <p>Adekunle Ajasin University | Akungba Akoko, Nigeria.</p>
+                    <ul>
+                        <li>Collected and analyzed data to assess the impact of health education programs, identifying areas for improvement and informing future program development.</li>
+                        <li>Educated students on stress management, anxiety reduction, and mental health resources.</li>
+                    </ul>
+                </div>
+
+            <div class="conference-presentations">
+                <h2 class="section-title">PROJECTS & PRESENTATIONS</h2>
+                <ul>
+                    <li>Google Professional Data Analyst: " Capstone Project "</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Your existing footer -->
+</body>
+</html>
